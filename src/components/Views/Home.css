@@ -1,0 +1,7 @@
+.body{
+    width: 100%;
+    position: relative;
+    top: 75px;
+    display: flex;
+    flex-direction: row;
+}

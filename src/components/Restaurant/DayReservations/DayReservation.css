@@ -1,0 +1,23 @@
+.dayResContainer{
+    width: 600px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+.dayResHeader{
+    margin: 25px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dayResHeaderInp{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.dayResHeaderInp button{
+    width: 30%;
+    cursor: pointer;
+}

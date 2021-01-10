@@ -1,0 +1,35 @@
+
+.guestNumberSelectorContainer{
+    position: relative;
+    display: flex;
+    height: 3rem;
+    background-color: ivory;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.viewContainer {
+    display: flex;
+    align-items: center;
+}
+.guestNumberSelector {
+    -webkit-appearance: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.guestNumberSelectorView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #878580;
+    padding: .3125rem;
+}

@@ -1,0 +1,42 @@
+.restaurant {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    border: 2px solid #a7874b;
+    border-radius: 3px;
+    margin: 1.5rem;
+}
+.restaurant:hover {
+    box-shadow: 0 0 10px #a7874b;
+    cursor: pointer;
+}
+.imageContainer{
+    display: flex;
+}
+.imageContainer img {
+    width: 320px;
+    height: 210px;
+}
+.restaurantInfo {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #a7874b;
+    color: #a7874b;
+
+}
+.restaurantInfoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bolder;
+    height:40px;
+}
+.restaurantInfoHeader p {
+    margin-left: 5px;
+}
+.restaurantInfoHeader span {
+    display: flex;
+    align-items: center;
+}

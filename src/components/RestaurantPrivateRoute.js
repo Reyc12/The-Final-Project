@@ -1,0 +1,23 @@
+import React from 'react';
+import { Route, Redirect } from 'react-router-dom';
+import {useAuth} from "./context/auth";
+
+function RestaurantPrivateRoute({ component: Component, ...rest }) {
+    const { authTokens } = useAuth();
+    return(
+        <Route
+            {...rest}
+            render={props =>
+                authTokens ? (
+                    <Component {...props} />
+                ) : (
+                    <Redirect
+                        to={{ pathname: "/restaurantLogin", state: { referer: props.location } }}
+                    />
+                )
+            }
+        />
+    );
+}
+
+export default RestaurantPrivateRoute;

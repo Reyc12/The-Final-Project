@@ -1,0 +1,55 @@
+/* Header.......*/
+header {
+    background-color: rgba(4, 2, 5, 0.98);
+    position:fixed;
+    z-index: 15;
+    top: 0;
+    width:100%;
+    box-shadow: 0 0 5px 10px #000000;
+}
+header h2 {
+    float: left;
+    margin-left: 10px;
+    color: ivory;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.navLinks {
+    float: right;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+.logInLink  {
+    color: ivory;
+    border: none;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.logInLink:hover  {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.logInLink:active  {
+    text-decoration-line: underline;
+    color: coral;
+}
+.signUpLink {
+    padding: 10px;
+    color: ivory;
+    background-color: coral;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.signUpLink:hover {
+    cursor: pointer;
+    background-color: #be6b58;
+}
+.signUpLink:active {
+    background-color: #be6b58;
+    color: coral;
+}

@@ -1,0 +1,27 @@
+.restaurantBannerContainer {
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://findmytable.s3.eu-west-2.amazonaws.com/pic10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+}
+.bannerContent{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 45px 35px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.35);
+    color: white;
+    height: 250px;
+    box-sizing: border-box;
+}
+.span{
+    color: #60de7d;
+}

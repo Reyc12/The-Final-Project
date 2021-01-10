@@ -1,0 +1,8 @@
+.ratingHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ratingHeader span {
+    margin-left: 10px;
+}

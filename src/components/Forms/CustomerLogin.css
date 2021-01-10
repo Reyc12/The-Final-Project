@@ -1,0 +1,49 @@
+.customerLogInContainer{
+    margin: 10% auto;
+    max-width: 450px;
+}
+.customerLogInForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.customerLogInForm > label {
+    display: none;
+}
+
+.customerLogInForm .inputs {
+    -webkit-appearance: none;
+    outline: none;
+    border: solid 1px #a7874b;
+    border-radius: 2px;
+    height:45px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.logInButton {
+    -webkit-appearance: none;
+    border: none;
+    height:40px;
+    border-radius: 3px;
+    background-color: #a7874b;
+    color: ivory;
+    transition: background-color ease-in .5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.logInButton:hover {
+    background-color: rgba(204, 172, 77, 0.99);
+}
+.logInButton:active {
+    background-color: coral;
+    color: #be6b58;
+    transition: background-color .6s;
+}
+.notYetAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,22 @@
+.cuisine{
+    flex-direction: column;
+}
+.cuisineHeader {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cuisineBody {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.choice {
+    display: flex;
+    align-items: center;
+}
+.choice input{
+    margin-top: 10px;
+}

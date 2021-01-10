@@ -1,0 +1,28 @@
+.priceHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceHeader span {
+    margin-left: 10px;
+}
+.priceBody {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.priceBody button {
+    -webkit-appearance: none;
+    border:1px solid ;
+    color: rgba(191, 116, 116, 0.85);
+    border-radius: 3px;
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.priceBody button:hover {
+    cursor: pointer;
+    background-color: #bfa283;
+    color: #fff6f6;
+}
